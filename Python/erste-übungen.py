@@ -15,10 +15,10 @@ print("_____________________________")
 note1 = 1
 note2 = 2
 note3 = 5
-schnitt = note1 + note2 + note3
+schnitt = (note1 + note2 + note3) / 3
 
 print("Aufgabe 3.2")
-print("Derschnitt lautet :", schnitt / 3)
+print("Derschnitt lautet :", schnitt)
 print("_____________________________")
 
 # Aufgabe 3.3
@@ -29,5 +29,6 @@ kilometer = float(input("Gib die Kilometer als Zahl ein, die umgerechnet werden 
 meilen = kilometer * meile
 
 print(f"{kilometer} Kilometer entsprechen " + str(meilen) +" Meilen.")
+print("_____________________________")
 
 
