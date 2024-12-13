@@ -1,10 +1,5 @@
 question_date = input("Nenne das Datum, was geprüft werden soll. jjjj.mm.tt = ")
 
-# winterferien 24 23.12.24 - 02.01.25
-# Osterferien 25 17.04.25 - 22.04.25
-# Sommerferien 25 08.08.25 - 20.08.25
-# Winterferien 25 23.12.25 - 02.01.26
-
 WinterHolidaysStart24 = "2024.12.23"
 WinterHolidaysEnd24 = "2025.01.02"
 EasterHolidaysStart25 = "2025.04.17"
@@ -22,5 +17,24 @@ elif SummerHolidaysStart25 <= question_date <= SummerHolidaysEnd25:
     print("Das Datum befindet sich in den Sommerferien 2025.")
 elif WinterHolidaysStart25 <= question_date <= WinterHolidaysEnd25:
     print("Das Datum befindet sich in den Winterferien 2025.")
+elif question_date == "2024.10.03":
+    print("Das Datum ist der Tag der deutschen Einheit 2024.")
+elif question_date == "2024.10.31":
+    print("Das Datum ist der Reformationstag 2024.")
+elif question_date == "2025.04.18":
+    print("Das Datum ist Karfreitag 2025.")
+elif question_date == "2025.04.21":
+    print("Das Datum ist Ostermontag 2025.")
+elif question_date == "2025.05.01":
+    print("Das Datum ist der Tag der Arbeit 2025.")
+elif question_date == "2025.05.29":
+    print("Das Datum ist Christi Himmelfahrt 2025.")
+elif question_date == "2025.06.09":
+    print("Das Datum ist Pfingstmontag 2025.")
+elif question_date == "2025.10.03":
+    print("Das Datum ist der Tag der deutschen Einheit 2025.")
+elif question_date == "2025.10.31":
+    print("Das Datum ist der Reformationstag 2025.")
 else:
-    print("Es geht handelt sich um einen Regulären Schlungstag , wenn es gerade ein  Monatg, Dienstag ,Mittwoch, Donnerstag oder Freitag ist 🧐")
+    print("Es handelt sich um einen regulären Schultag, wenn es gerade ein Montag, Dienstag, Mittwoch, Donnerstag oder Freitag ist 😉")
+
