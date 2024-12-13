@@ -17,7 +17,9 @@ print("Augabe 3 ________Einfache If-Bedingung____________")
 
 negativquestion = int(input("gebe eine zahl an die überprüft werden soll ob sie negativ ist ="))
 
-if negativquestion >= 0:
+if negativquestion > 0:
   print("Die angebene zahl ist nicht negativ :)")
+elif negativquestion = 0:
+  print("Die zahl ist 0 :|")
 else :
   print("Die angebene zahl ist negativ :(")
