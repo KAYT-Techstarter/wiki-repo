@@ -19,10 +19,6 @@ elif WinterHolidaysStart25 <= question_date <= WinterHolidaysEnd25:
     print("Das Datum befindet sich in den Winterferien 2025.")
 elif question_date == "2024.10.03":
     print("Das Datum ist der Tag der deutschen Einheit 2024.")
-elif question_date == "2024.10.31":
-    print("Das Datum ist der Reformationstag 2024.")
-elif question_date == "2025.04.18":
-    print("Das Datum ist Karfreitag 2025.")
 elif question_date == "2025.04.21":
     print("Das Datum ist Ostermontag 2025.")
 elif question_date == "2025.05.01":
