@@ -57,7 +57,8 @@ def play_game():
         play_again = input("Do you want to play again? (yes/no): ")
         if play_again != "yes":
             print("Thanks for playing!")
-        else:
             play_game()
+        else:
+            break
 
 play_game()
