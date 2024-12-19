@@ -55,7 +55,7 @@ def play_game():
         print(f"Score: You {user_wins} - {computer_wins} Computer, Ties: {tie}")
 
         play_again = input("Do you want to play again? (yes/no): ")
-        if play_again != "yes":
+        if play_again != "no":
             print("Thanks for playing!")
             play_game()
         else:
