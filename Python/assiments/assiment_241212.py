@@ -19,7 +19,7 @@ negativquestion = int(input("gebe eine zahl an die überprüft werden soll ob si
 
 if negativquestion > 0:
   print("Die angebene zahl ist nicht negativ :)")
-elif negativquestion = 0:
+elif negativquestion == 0:
   print("Die zahl ist 0 :|")
 else :
   print("Die angebene zahl ist negativ :(")
