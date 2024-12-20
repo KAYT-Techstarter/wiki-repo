@@ -18,6 +18,18 @@ else:
 
 - Schreibe die Arbeitsschritte auf.
 
+### Antwort 
+
+1. Fordere den Benutzer auf, eine Zahl einzugeben.
+
+2. Wandle die Benutzereingabe von einem String in eine ganze Zahl um.
+
+3. Prüfe, ob die eingegebene Zahl größer als 10 ist.
+
+   Wenn ja, gib „Die Zahl ist größer als 10.“ aus.
+
+   Wenn nein, gib „Die Zahl ist 10 oder kleiner.“ aus.
+
 ---
 
 ## Aufgabe 2: Listen verstehen und mit Python erstellen (20 Punkte)
@@ -33,6 +45,12 @@ print("Die letzte Zahl ist:", zahlen[-1])
 ```
 
 - Schreibe die Arbeitsschritte auf.
+
+### Antwort 
+
+1. Erstelle eine Liste von Zahlen.
+
+2. 
 
 **Zusatzaufgabe:** Erstelle selbst eine Liste mit Wochentagen und schreibe die Arbeitsschritte auf.
 
