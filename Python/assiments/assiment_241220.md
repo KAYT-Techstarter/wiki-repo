@@ -50,9 +50,25 @@ print("Die letzte Zahl ist:", zahlen[-1])
 
 1. Erstelle eine Liste von Zahlen.
 
-2. 
+2. Gebe die Erste Zahl der Liste aus. (0)
+
+3. gebe die Letzte Zahl aus der Liste aus (-1)
 
 **Zusatzaufgabe:** Erstelle selbst eine Liste mit Wochentagen und schreibe die Arbeitsschritte auf.
+
+### Antwort Zusatzaufgabe
+
+```python
+wochentag = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag"]
+print("Die erste Wochentag ist:", wochentage[0])
+print("Die letzte Wochentag ist:", wochentage[-1])
+```
+
+1. Erstelle eine Liste von Wochentagen.
+
+2. Gebe den ersten Wochentag der Liste aus. (0)
+
+3. gebe den Letzten Wochentag aus der Liste aus (-1)
 
 ---
 
@@ -73,6 +89,18 @@ else:
 ```
 
 - Schreibe die Arbeitsschritte auf.
+
+### Antwort
+
+1. Fordere den Benutzer auf, eine Zahl einzugeben.
+
+2. Wandle die Benutzereingabe von einem String in eine ganze Zahl um.
+
+3. Prüfe ist die Zahl Positiv (Großer als 0)
+
+4. Prüfe ist die Zahl Negativ (Kleiner als 0)
+
+5. Wenn nichts zutrifft soll ausgeben werden das die Zahl 0 ist.
 
 ---
 
@@ -98,6 +126,20 @@ else:
 
 - Schreibe die Arbeitsschritte auf.
 
+### Antwort
+
+1. Definiere einen Funktion ist-gerade 
+
+2. Teile die Zahl durch 2 und prüfe ob ein Rest bleibt.
+
+3. Definiere einen Benutzer eingabe für eine Zahl.
+
+4. Rufe die Funktion ist_gerade auf und egbe die Zahl mit.
+
+5. Wenn die Zahl gerade ist gebe "Die Zahl ist gerade." aus.
+
+6. Wenn die Zahl ungerade ist gebe "Die Zahl ist ungerade." aus.
+
 ---
 
 ## Aufgabe 5: Benutzerinteraktion (10 Punkte)
@@ -113,6 +155,15 @@ print(f"Hallo {name}, in 10 Jahren wirst du {alter + 10} Jahre alt sein!")
 ```
 
 - Schreibe die Arbeitsschritte auf.
+
+### Antwort
+
+1. Frage den Nutzer nach den Namen
+
+2. Frage den Nutzer nach den Alter
+
+3. Gebe den Nutzer seinen Namen und das alter aus in 10 Jahren
+   Als satz "Hallo ***Nutzername***, in 10 Jahren wirst du ***Alter + 10*** Jahre alt sein!"
 
 ---
 
