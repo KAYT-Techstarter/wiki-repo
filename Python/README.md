@@ -1,5 +1,13 @@
 # Python Assignments
 
+[Assignment from 19.12.2024](./assiments/assiment_241219.md)
+
+```
+# Aufgaben für den Nachmittag: Python-Code in Arbeitsschritte beschreiben
+
+Anhand von Code bispielen
+```
+
 [Assignment from 18.12.2024](./assiments/assiment_241218.py)
 
 ```
